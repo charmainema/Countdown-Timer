@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- image -->
+      <article class="gift-img">
+        <img src="./gift.jpeg" alt="gift picture">
+      </article>
+      <!-- info -->
+      <article class="gift-info">
+        <h3>old iphone giveaway</h3>
+        <h4 class="giveaway">
+          giveaway ends on Sunday, 24 April 2020, 8:00am
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In impedit nulla facere, temporibus odio inventore, perspiciatis sed qui quos laborum tempore vitae obcaecati unde dicta aliquid odit rem quo eligendi!
+        </p>
+        <div class="deadline">
+          <!-- days -->
+          <div class="deadline-format">
+            <div>
+              <h4 class="days">34</h4>
+              <span>days</span>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- hours -->
+          <div class="deadline-format">
+            <div>
+              <h4 class="hours">34</h4>
+              <span>hours</span>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- minutes -->
+          <div class="deadline-format">
+            <div>
+              <h4 class="mins">34</h4>
+              <span>mins</span>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- secs -->
+          <div class="deadline-format">
+            <div>
+              <h4 class="secs">34</h4>
+              <span>secs</span>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+
+      </article>
+      <article>
+        <form id="form">
+          <!-- year -->
+          <label for="year">Year:</label>
+          <input type="number" name="days" id="year" placeholder="0" required>
+          <!-- month -->
+          <label for="month">Month:</label>
+          <input type="number" name="hours" id="month" placeholder="0" required>
+          <!-- Day -->
+          <label for="Day">Day:</label>
+          <input type="number" name="minutes" id="day" placeholder="0" required>
+          <!-- hour -->
+          <label for="seconds">Hour:</label>
+          <input type="number" name="seconds" id="hour" placeholder="0" required>
+          <!-- minute -->
+          <label for="minute">Minute:</label>
+          <input type="number" name="seconds" id="minute" placeholder="0" required>
+          <button type="submit" class="btn">Enter</button>
+        </form>
+        <button class="btn" id="reset">Reset Timer</button>
+      </article>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
